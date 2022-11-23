@@ -1,4 +1,4 @@
-package Declarations
+package declaration
 
 fun main() {
 	val number1: Int
