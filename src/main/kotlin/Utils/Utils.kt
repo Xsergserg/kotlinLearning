@@ -1,12 +1,11 @@
 package Utils
 
-fun printArray (someList: Any) {
-    if (someList is Array<*>) {
-        for (element in someList)
+fun printCollection (someCollection: Any) {
+    if (someCollection is Collection<*>) {
+        for (element in someCollection)
             print("$element ")
         println()
+        return
     }
-    else {
-        println("Object is not list")
-    }
+    println("Object is not list")
 }

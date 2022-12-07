@@ -1,6 +1,6 @@
 package declaration
 
-import Utils.printArray
+import Utils.printCollection
 import javacode.DummyClass
 
 fun main() {
@@ -19,13 +19,13 @@ fun main() {
     val zeroArray = Array(100) { 0 }
 
     var intArray = arrayOf(1, 2, 3, 4)
-    printArray(intArray)
+    printCollection(intArray)
 
     intArray = Array(6) { i -> (i + 1) * 10 }
-    printArray(intArray)
+    printCollection(intArray)
 
     val mixedArray = arrayOf("John", 15, Employee("John Doe", 100))
-    printArray(mixedArray)
+    printCollection(mixedArray)
 
     DummyClass.printNumbers(intArray.toIntArray())
     DummyClass.printIntegers(intArray.toMutableList())
