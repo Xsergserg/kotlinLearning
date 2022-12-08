@@ -1,4 +1,4 @@
-package HelloWorld
+package helloWorld
 
 fun main(args: Array<String>) {
 	helloWorld();
