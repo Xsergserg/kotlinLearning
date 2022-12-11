@@ -1,7 +1,7 @@
 package declaration
 
 fun main() {
-	val number1: Int
+/*	val number1: Int
 	val number2 = 25
 	val number3: Short = 25
 
@@ -17,5 +17,14 @@ fun main() {
 
 	println (employee2 == employee3)
 	println(employee2.equals(employee3))
-	println(employee2 === employee3)
+	println(employee2 === employee3)*/
+
+	val myCar = CarData("Deep blue", "Bentyago", 2023)
+	val someBodyCar = CarData("Deep blue", "Bentyago", 2023)
+	val carOtherColor = myCar.copy(color = "red")
+	val myCar2 = CarData("Black");
+	println(myCar)
+	println(carOtherColor)
+	println("someBodyCar == myCar? ${someBodyCar == myCar}")
+	println(myCar2)
 }

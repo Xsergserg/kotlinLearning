@@ -1,6 +1,6 @@
 package declaration
 
-import Utils.printCollection
+import utils.printCollection
 import javacode.DummyClass
 
 fun main() {

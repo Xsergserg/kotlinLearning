@@ -1,6 +1,6 @@
 package nullManagement
 
-import Utils.printCollection
+import utils.printCollection
 
 fun main() {
     val nullableInts = arrayOfNulls<Int?>(5);

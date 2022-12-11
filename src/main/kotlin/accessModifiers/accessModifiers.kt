@@ -1,9 +1,10 @@
 package accessModifiers
 
+val MY_CONSTANT = 100;
+
 //class is public by default
 //classes and file names are not connects
 //internal is able for module
-
 
 fun main() {
     val emp = Employee("John")
@@ -17,6 +18,7 @@ fun main() {
     print(emp3.firstName)
     print(emp4.fullTime)
     print(emp5.fullTime)
+    print(MY_CONSTANT)
 
 }
 

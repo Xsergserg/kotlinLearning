@@ -1,4 +1,4 @@
-package Utils
+package utils
 
 fun printCollection (someCollection: Any) {
     if (someCollection is Collection<*>) {
