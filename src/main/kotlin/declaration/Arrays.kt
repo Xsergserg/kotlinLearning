@@ -2,6 +2,7 @@ package declaration
 
 import utils.printCollection
 import javacode.DummyClass
+import utils.printArray
 
 fun main() {
     val names = arrayOf("John", "Sergey", "pam")
@@ -14,18 +15,18 @@ fun main() {
     val evenNumbers = Array(16) { i -> i * 2 }
     for (number in evenNumbers)
         print("$number ")
-
+    println()
     val lotsOfNumbers = Array(10000) { i -> i + 1 }
     val zeroArray = Array(100) { 0 }
 
     var intArray = arrayOf(1, 2, 3, 4)
-    printCollection(intArray)
+    intArray.printArray()
 
     intArray = Array(6) { i -> (i + 1) * 10 }
-    printCollection(intArray)
+    intArray.printArray()
 
     val mixedArray = arrayOf("John", 15, Employee("John Doe", 100))
-    printCollection(mixedArray)
+    mixedArray.printArray()
 
     DummyClass.printNumbers(intArray.toIntArray())
     DummyClass.printIntegers(intArray.toMutableList())

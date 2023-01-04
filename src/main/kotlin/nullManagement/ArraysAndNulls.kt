@@ -1,13 +1,12 @@
 package nullManagement
 
+import utils.printArray
 import utils.printCollection
 
 fun main() {
     val nullableInts = arrayOfNulls<Int?>(5);
-    printCollection(nullableInts)
+    nullableInts.printArray()
 
     val nullableString = listOf<String?>()
-    printCollection(nullableString)
-
-
+    nullableString.printCollection()
 }
