@@ -1,4 +1,4 @@
-package challenges.challenges2.firstPart.oochallenge
+package challenges.challengesRoundTwo.firstPart.oochallenge
 
 open class Bicycle(
     var cadence: Int,

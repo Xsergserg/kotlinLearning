@@ -19,10 +19,10 @@ fun main() {
 	println(employee2.equals(employee3))
 	println(employee2 === employee3)*/
 
-	val myCar = CarData("Deep blue", "Bentyago", 2023)
-	val someBodyCar = CarData("Deep blue", "Bentyago", 2023)
+	val myCar = Car("Deep blue", "Bentyago", 2023)
+	val someBodyCar = Car("Deep blue", "Bentyago", 2023)
 	val carOtherColor = myCar.copy(color = "red")
-	val myCar2 = CarData("Black");
+	val myCar2 = Car("Black");
 	println(myCar)
 	println(carOtherColor)
 	println("someBodyCar == myCar? ${someBodyCar == myCar}")

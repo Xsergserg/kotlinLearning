@@ -1,4 +1,4 @@
-package challenges.challenges2.secondPart.javacode;
+package challenges.challengesRoundTwo.firstPart.javacode;
 
 public class Bicycle {
 
@@ -42,12 +42,6 @@ public class Bicycle {
 
     public void speedUp(int increment) {
         speed += increment;
-    }
-
-    public void printDescription() {
-        System.out.println("Bike is in gear " + gear +
-                            " with a cadence of " + cadence +
-                            " travelling at a speed of " + speed + ".");
     }
 
 

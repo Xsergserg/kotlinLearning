@@ -1,4 +1,4 @@
-package challenges.challenges2.secondPart.oochallenge
+package challenges.challengesRoundTwo.secondPart.oochallenge
 
 import utils.printCollection
 

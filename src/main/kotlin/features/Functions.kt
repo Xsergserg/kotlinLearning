@@ -1,23 +1,23 @@
 package features
 
-import declaration.CarData
+import declaration.Car
 import utils.upperFirstAndLast
 
 fun main() {
     println(multiply2(x = 3, y = 5, "3 * 5 = "))
-    val car1 = CarData("red")
-    val car2 = CarData("green")
-    val car3 = CarData()
+    val car1 = Car("red")
+    val car2 = Car("green")
+    val car3 = Car()
     printCarColors(car1, car2, car3, label = "Color")
     printCarColors("Color", car1)
 }
 
-fun printCarColors(label: String, vararg cars: CarData) {
+fun printCarColors(label: String, vararg cars: Car) {
     for (car in cars)
         println("$label: ${car.color?.upperFirstAndLast()}")
 }
 
-fun printCarColors(vararg cars: CarData, label: String) {
+fun printCarColors(vararg cars: Car, label: String) {
     printCarColors(label, *cars)
 }
 

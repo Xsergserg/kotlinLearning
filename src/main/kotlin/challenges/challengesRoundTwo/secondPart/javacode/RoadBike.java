@@ -1,4 +1,4 @@
-package challenges.challenges2.firstPart.javacode;
+package challenges.challengesRoundTwo.secondPart.javacode;
 
 public class RoadBike extends Bicycle {
 
@@ -15,6 +15,11 @@ public class RoadBike extends Bicycle {
 
     public int getTireWidth() {
         return tireWidth;
+    }
+
+    public void printDescription() {
+        super.printDescription();
+        System.out.println("The road bike has a tire width of " + tireWidth + " MM.");
     }
 
 }
